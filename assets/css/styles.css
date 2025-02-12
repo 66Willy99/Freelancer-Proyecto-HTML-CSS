@@ -9,9 +9,10 @@
 html{                       /* Hack para que 1rem = 10px */
     font-size: 62.5%;       
 }
-body{
-    font-size: 16px;
-}                           /* 62.5% de 16px = 10px */
+body{                       
+    font-size: 16px;        /* 62.5% de 16px = 10px */
+    font-family: "Krub", serif; /*Se pone la fuente en el body para que aplique a todo el HTML*/
+}                           
 .titulo {
     text-align: center;
     font-size: 3.8rem;
