@@ -1,13 +1,21 @@
+:root{                     /* pseudoselectores */ 
+    --blanco: #fff;     
+    --oscuro: #212121;  /* se inicia con -- como si fuera variable*/
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+}
+
 html{                       /* Hack para que 1rem = 10px */
-    font-size: 62.5%;       /* 62.5% de 16px = 10px */
+    font-size: 62.5%;       
 }
 body{
     font-size: 16px;
-}
-h1{
+}                           /* 62.5% de 16px = 10px */
+.titulo {
     text-align: center;
     font-size: 3.8rem;
 }
-span{
+.titulo span{
     font-size: 2rem;
 }
