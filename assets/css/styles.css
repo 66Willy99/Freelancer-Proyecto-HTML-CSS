@@ -20,3 +20,17 @@ body{
 .titulo span{
     font-size: 2rem;
 }
+
+.contenedor{
+    width: 120rem; /* 1200px */
+    margin: 0 auto; /* centrar */
+}
+
+.nav-bg{
+    background-color: var(--secundario); /* se llama la variable */
+}
+
+.navegacion-principal{
+    
+
+}
