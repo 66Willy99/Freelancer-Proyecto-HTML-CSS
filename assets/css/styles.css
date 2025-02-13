@@ -22,15 +22,25 @@ body{
 }
 
 .contenedor{
-    width: 120rem; /* 1200px */
+    width: 120rem;  /* 1200px */
     margin: 0 auto; /* centrar */
 }
 
 .nav-bg{
     background-color: var(--secundario); /* se llama la variable */
 }
-
 .navegacion-principal{
-    
-
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-principal a{   
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
