@@ -22,7 +22,7 @@ body{
 }
 
 .contenedor{
-    width: 120rem;  /* 1200px */
+    max-width: 120rem;  /* 1200px */
     margin: 0 auto; /* centrar */
 }
 
@@ -31,9 +31,21 @@ body{
 }
 .navegacion-principal{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+/*  
+    Media Querie para la clase Navegacion principal, 
+    se activa cuando detecta como minimo un ancho de 768px
+*/
+@media (min-width: 768px){
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 .navegacion-principal a{   
+    display: block;
+    text-align: center;
     padding: 1rem;
     color: var(--blanco);
     text-decoration: none;
