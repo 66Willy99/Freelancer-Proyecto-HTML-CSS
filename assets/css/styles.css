@@ -4,6 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
+    --grisClaro: #dfe9f3;
 }
 
 /* Globales */
@@ -17,6 +18,7 @@ html{                       /* Hack para que 1rem = 10px */
 body{                       
     font-size: 16px;        /* 62.5% de 16px = 10px */
     font-family: "Krub", serif; /*Se pone la fuente en el body para que aplique a todo el HTML*/
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 .contenedor{
     max-width: 120rem;  /* 1200px */
