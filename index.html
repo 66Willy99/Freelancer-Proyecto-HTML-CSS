@@ -113,43 +113,44 @@
                     et tempus nibh</p>
             </section>
         </div> <!-- .servicios -->
+    
+        <section>
+            <h2>Contacto</h2>
+
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos</legend>
+
+                    <div class="contendor-campos">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre" id="nombre" name="nombre" required>
+                        </div>
+    
+                        <div class="campo">
+                            <label for="telefono">Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Telefono" id="telefono" name="telefono" required>
+                        </div>
+    
+                        <div class="campo">
+                            <label for="email">Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email" id="email" name="email" required>
+                        </div>
+    
+                        <div class="campo">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="input-text" name="mensaje" id="msg"></textarea>
+                        </div>                        
+                    </div>
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" name="enviar" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
 
-    <section>
-        <h2>Contacto</h2>
-
-        <form action="">
-            <fieldset>
-                <legend>Contactame llenando todos los campos</legend>
-
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" placeholder="Tu Nombre" id="nombre" name="nombre" required>
-                </div>
-
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="tel" placeholder="Tu Telefono" id="telefono" name="telefono" required>
-                </div>
-
-                <div>
-                    <label for="email">Correo</label>
-                    <input type="email" placeholder="Tu Email" id="email" name="email" required>
-                </div>
-
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="msg"></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" name="enviar" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. Guillermo Mercado</p>
     </footer>
 
